@@ -23,7 +23,7 @@ import com.tka.kineapi.service.UserService;
 
 @RestController
 @RequestMapping("/attendance")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "*")
 public class AttendanceController {
 
 	@Autowired

@@ -19,7 +19,7 @@ import com.tka.kineapi.service.SubjectService;
 
 @RestController
 @RequestMapping("/subject")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "*")
 public class SubjectController {
 
 	@Autowired
